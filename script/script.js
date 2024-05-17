@@ -7,21 +7,21 @@
 // })
 // }
 document.addEventListener("DOMContentLoaded", function() {
-    // Get the display element
+    // Getting display element
     var display = document.querySelector('input[name="display"]');
 
-    // Get all the buttons
+    // Getting all buttons
     var buttons = document.querySelectorAll('.calculator input[type="button"]');
 
-    // Add click event listener to each button
+    // Adding event listener to each button
     buttons.forEach(function(button) {
         button.addEventListener('click', function() {
             var value = this.value;
 
-            // Handle different button clicks
+            //different button
             switch (value) {
                 case 'CE':
-                    // Clear the display
+                    // Clearing the display
                     display.value = '';
                     break;
                 case '⌫':
@@ -37,7 +37,6 @@ document.addEventListener("DOMContentLoaded", function() {
                     }
                     break;
                 default:
-                    // Append the clicked button value to the display
                     display.value += value;
                     break;
             }
