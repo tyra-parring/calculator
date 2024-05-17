@@ -7,57 +7,51 @@
     <title>Calculator</title>
 </head>
 <body> 
-
+    
     <div class="container">
         <div class="calculator">
             <form>
                 <div class="display">
-                        <input type="text" name="display">
+                        <input type="text" name="display" readonly>
                 </div>
+
                     <div>
-                        <input type="button" value="%">
-                        <input type="button" value="CE">
-                        <input type="button" value="C">
-                        <input type="button" value="⌫">
+                        <input type="button" class="buttons" value="CE">
+                        <input type="button" class="buttons" value="%">
+                        <input type="button" class="buttons" value="/">
+                        <input type="button" class="buttons" value="⌫">
                     </div>
 
                     <div>
-                        <input type="button" value="%">
-                        <input type="button" value="x">
-                        <input type="button" value="C">
-                        <input type="button" value="÷">
+                        <input type="button" class="buttons" value="7">
+                        <input type="button" class="buttons" value="8">
+                        <input type="button" class="buttons" value="9">
+                        <input type="button" class="buttons" value="*">
                     </div>
 
                     <div>
-                        <input type="button" value="7">
-                        <input type="button" value="8">
-                        <input type="button" value="9">
-                        <input type="button" value="×">
+                        <input type="button" class="buttons" value="4">
+                        <input type="button" class="buttons" value="5">
+                        <input type="button" class="buttons" value="6">
+                        <input type="button" class="buttons" value="-">
                     </div>
 
                     <div>
-                        <input type="button" value="4">
-                        <input type="button" value="5">
-                        <input type="button" value="6">
-                        <input type="button" value="-">
+                        <input type="button" class="buttons" value="1">
+                        <input type="button" class="buttons" value="2">
+                        <input type="button" class="buttons" value="3">
+                        <input type="button" class="buttons" value="+">
                     </div>
 
                     <div>
-                        <input type="button" value="1">
-                        <input type="button" value="2">
-                        <input type="button" value="3">
-                        <input type="button" value="+">
-                    </div>
-
-                    <div>
-                        <input type="button" value="+/-">
-                        <input type="button" value="0">
-                        <input type="button" value=",">
-                        <input type="button" value="=">
-                    </div>
-                    
+                        <input type="button" class="buttons" value="+/-">
+                        <input type="button" class="buttons" value="0">
+                        <input type="button" class="buttons" value=",">
+                        <input type="button" class="buttons" value="=">
+                    </div>  
             </form>
         </div>
     </div>
+    <script src="./script/script.js"></script>
 </body>
 </html>

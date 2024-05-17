@@ -28,10 +28,8 @@
     height: 60px;
     border-radius: 10px;
     box-shadow: -8px -8px 15px rgba(214, 12, 214, 0.627) 5px 5px 15px rgba(142, 28, 28, 0.814);
-    background: transparent;
     font-size: 20px;
-    color: white;
-    cursor: pointer;
+    color: rgb(6, 6, 205);
     margin: 10px;
 }
 
@@ -46,4 +44,9 @@ form .display input {
     font-size: 25px;
     box-shadow: none;
     border: purple 3px solid;
+}
+
+.buttons:hover{
+    background-color: rgb(191, 206, 219);
+    cursor: pointer;
 }
