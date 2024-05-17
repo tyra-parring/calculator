@@ -6,11 +6,9 @@
 //         alert(button.value)
 // })
 // }
-document.addEventListener("DOMContentLoaded", function() {
-    // Getting display element
+window.addEventListener("load", function() {
     var display = document.querySelector('input[name="display"]');
 
-    // Getting all buttons
     var buttons = document.querySelectorAll('.calculator input[type="button"]');
 
     // Adding event listener to each button
@@ -29,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     display.value = display.value.slice(0, -1);
                     break;
                 case '=':
-                    // Evaluate the expression
+                    // Evaluating the expression
                     try {
                         display.value = eval(display.value);
                     } catch (error) {
